@@ -30,7 +30,7 @@ import { IColorPickerConfiguration } from '../interfaces';
             cursor: pointer; }`,
 
         `.current-color:after {
-            display: node; }`,
+            display: none; }`,
 
         `.color-picker-color {
             display: inline-block;
