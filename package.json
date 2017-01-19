@@ -1,7 +1,7 @@
 {
   "name": "ng2-color-picker-4th",
-  "version": "1.1.0",
-  "description": "Simple color picker for Angular 2",
+  "version": "0.1.0",
+  "description": "Simple color picker for Angular 2 with ng-bootstrap dependency",
   "main": "lib/index.js",
   "scripts": {
     "test": "exit 0",
@@ -22,7 +22,8 @@
     "2",
     "two",
     "dropdown",
-    "simple"
+    "simple",
+    "ng-bootstrap"
   ],
   "author": "Daniel Valenzuela",
   "license": "MIT",
@@ -31,7 +32,7 @@
     "@angular/compiler": "^2.4.0",
     "@angular/core": "^2.4.0",
     "@angular/forms": "^2.4.0",
-    "ng2-bootstrap": "^1.1.16-11",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.18",
     "rxjs": "^5.0.1",
     "zone.js": "^0.7.4"
   },

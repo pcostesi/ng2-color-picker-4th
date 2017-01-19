@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { ColorPickerModule } from 'ng2-color-picker';
+import { ColorPickerModule } from 'ng2-color-picker-4th';
 
 
 @NgModule({

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { IColorPickerConfiguration } from 'ng2-color-picker';
+import { IColorPickerConfiguration } from '../../../lib';
 
 @Component({
   selector: 'app-root',

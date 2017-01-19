@@ -7,15 +7,17 @@ import { IColorPickerConfiguration } from '../interfaces';
 @Component({
     selector: `color-picker[ngModel]`,
     template: `
-        <div class="color-picker-container" dropdown>
+        <div ngbDropdown class="d-inline-block">
             <span class="current-color" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
-                [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="cd.viewModel" dropdownToggle>
+                [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="cd.viewModel" ngbDropdownToggle>
             </span>
-            <ul dropdownMenu class="color-picker-dropdown">
-                <li class="color-picker-color" *ngFor="let color of config.availableColors" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
-                    [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="color" (click)="setColor(color)" [title]="color">
-                </li>
-            </ul>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <ul class="color-picker-dropdown">
+                    <li class="color-picker-color" *ngFor="let color of config.availableColors" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
+                        [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="color" (click)="setColor(color)" [title]="color">
+                    </li>
+                </ul>
+            </div>
         </div>
     `,
     styles: [
