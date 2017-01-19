@@ -29,6 +29,9 @@ import { IColorPickerConfiguration } from '../interfaces';
             background-color: #ff0000;
             cursor: pointer; }`,
 
+        `.current-color:after {
+            display: node; }`,
+
         `.color-picker-color {
             display: inline-block;
             margin-left: 4px;
@@ -36,6 +39,7 @@ import { IColorPickerConfiguration } from '../interfaces';
 
         `.color-picker-dropdown {
             padding-bottom: 0;
+            padding-left: 0
         }`
     ],
     providers: [ NgModel ]
