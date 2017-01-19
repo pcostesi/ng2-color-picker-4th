@@ -8,9 +8,7 @@ import { IColorPickerConfiguration } from '../interfaces';
     selector: `color-picker[ngModel]`,
     template: `
         <div ngbDropdown class="d-inline-block">
-            <span class="current-color" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
-                [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="cd.viewModel" ngbDropdownToggle>
-            </span>
+            <button class="btn btn-outline-primary" id="dropdownMenu1" ngbDropdownToggle>Toggle dropdown</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
                 <ul class="color-picker-dropdown">
                     <li class="color-picker-color" *ngFor="let color of config.availableColors" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
