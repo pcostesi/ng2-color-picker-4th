@@ -1,6 +1,6 @@
 {
   "name": "ng2-color-picker-4th",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Simple color picker for Angular 2 with ng-bootstrap dependency",
   "main": "lib/index.js",
   "scripts": {
