@@ -10,26 +10,26 @@ Simple color picker for Angular 2
 
 ## Dependencies
 
-The module relies on `ng2-bootstrap` for dropdown functionality.
+The module relies on `ng-bootstrap` for dropdown functionality. (https://ng-bootstrap.github.io)
 
 ## Installation
 
 To include in your project install via NPM with:
 
 ```
-npm install --save ng2-color-picker
+npm install --save ng2-color-picker-4th
 ```
 
 You will then need to include the module to your app.module.ts:
 
 ```typescript
-import { ColorPickerModule } from 'ng2-color-picker';
+import { ColorPickerModule4th } from 'ng2-color-picker-4th';
 
 // ...
 
 @NgModule({
     imports: [
-        ColorPickerModule
+        ColorPickerModule4th
     ]
 })
 ///...
@@ -62,7 +62,7 @@ It is possible to configure `ng2-color-picker` by providing a configuration obje
 `ng2-color-picker` exposes an interface to provide an indication of valid configuration properties, this can be referenced as a type for your configuration object by importing it:
 
 ```typescript
-import { IPickerConfiguration } from 'ng2-color-picker';
+import { IPickerConfiguration } from 'ng2-color-picker-4th';
 ```
 
 Which can then be used as the configuration object type in your component:
