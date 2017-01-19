@@ -19,13 +19,13 @@ npm install --save ng2-color-picker-4th
 You will then need to include the module to your app.module.ts:
 
 ```typescript
-import { ColorPickerModule4th } from 'ng2-color-picker-4th';
+import { ColorPickerModule } from 'ng2-color-picker-4th';
 
 // ...
 
 @NgModule({
     imports: [
-        ColorPickerModule4th
+        ColorPickerModule
     ]
 })
 ///...
