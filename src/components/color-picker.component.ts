@@ -10,11 +10,9 @@ import { IColorPickerConfiguration } from '../interfaces';
         <div ngbDropdown class="d-inline-block">
             <button class="btn btn-outline-primary" id="dropdownMenu1" ngbDropdownToggle>Toggle dropdown</button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                <ul class="color-picker-dropdown">
-                    <li class="color-picker-color" *ngFor="let color of config.availableColors" [style.width]="config.width + 'px'" [style.height]="config.height + 'px'"
-                        [style.border-radius]="config.borderRadius + 'px'" [style.background-color]="color" (click)="setColor(color)" [title]="color">
-                    </li>
-                </ul>
+               <button class="dropdown-item">Action - 1</button>
+                <button class="dropdown-item">Another Action</button>
+                <button class="dropdown-item">Something else is here</button>
             </div>
         </div>
     `,
