@@ -28,10 +28,10 @@
   "author": "Daniel Valenzuela",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "^2.4.0",
-    "@angular/compiler": "^2.4.0",
-    "@angular/core": "^2.4.0",
-    "@angular/forms": "^2.4.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.14",
     "rxjs": "^5.0.1",
     "zone.js": "^0.7.4"
